@@ -1,0 +1,23 @@
+*********.  LIBRARIES.  **********
+-Ajouter .jar du pilote JDBC
+-Sélectionner pour le projet JDK8 si java.sql est inaccessible
+
+*********.  INFRA - JDBC.  **********
+-Dans JDBCHelper, spécifier les paramètres de connexion : hôte, port, etc.
+
+*********.  MODEL.  **********
+-Model class Extends BaseModel
+-Définir les champs dont le nom en BD est différent du nom en Java (@Column)
+-Définir les champs qui ne représentent aucune colonne en BD (@Transient)
+
+
+*********.  DAO.  **********
+-DAO class extends BaseDBDAO
+-Définir le constructeur par défaut avec le constructeur du BaseDAO
+
+*********.  VIEW.  **********
+-Design de la vue (fiche enregistrement : HIDE_ON_CLOSE, fenêtre principale : EXIT_ON_CLOSE)
+
+*********.  CONTROLLER.  **********
+-Définition des actions du Controller sur la vue (Prog. fonctionnelle avec ActionListener)
+-Traitement sur les éléments de la vue (SwingUtilities.invokeLater)

@@ -33,21 +33,21 @@ public class FicheVoyageView extends javax.swing.JFrame {
 
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        tfNomBateau = new javax.swing.JTextField();
+        tfLieuDepart = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        tfDescBateau = new javax.swing.JTextField();
+        tfDateDepart = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        spCapacite = new javax.swing.JSpinner();
-        btEnregistrer = new javax.swing.JButton();
+        spBateau = new javax.swing.JSpinner();
+        btEnregVoyage = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        tfNomBateau1 = new javax.swing.JTextField();
-        tfDescBateau1 = new javax.swing.JTextField();
-        tfDescBateau2 = new javax.swing.JTextField();
-        tfDescBateau3 = new javax.swing.JTextField();
+        tfDestination = new javax.swing.JTextField();
+        tfDateArrivee = new javax.swing.JTextField();
+        tfHeureDepart = new javax.swing.JTextField();
+        tfHeureArrivee = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
@@ -66,10 +66,10 @@ public class FicheVoyageView extends javax.swing.JFrame {
         jLabel2.setText("Fiche Voyage");
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        tfNomBateau.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfNomBateau.addActionListener(new java.awt.event.ActionListener() {
+        tfLieuDepart.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfLieuDepart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfNomBateauActionPerformed(evt);
+                tfLieuDepartActionPerformed(evt);
             }
         });
 
@@ -78,10 +78,10 @@ public class FicheVoyageView extends javax.swing.JFrame {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel3.setText("Destination");
 
-        tfDescBateau.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfDescBateau.addActionListener(new java.awt.event.ActionListener() {
+        tfDateDepart.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfDateDepart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfDescBateauActionPerformed(evt);
+                tfDateDepartActionPerformed(evt);
             }
         });
 
@@ -90,14 +90,14 @@ public class FicheVoyageView extends javax.swing.JFrame {
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel4.setText("Bateau");
 
-        spCapacite.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        spCapacite.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
+        spBateau.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        spBateau.setModel(new javax.swing.SpinnerNumberModel(1, 1, null, 1));
 
-        btEnregistrer.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        btEnregistrer.setText("Enregistrer");
-        btEnregistrer.addActionListener(new java.awt.event.ActionListener() {
+        btEnregVoyage.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        btEnregVoyage.setText("Enregistrer");
+        btEnregVoyage.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btEnregistrerActionPerformed(evt);
+                btEnregVoyageActionPerformed(evt);
             }
         });
 
@@ -127,31 +127,31 @@ public class FicheVoyageView extends javax.swing.JFrame {
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel10.setText("*");
 
-        tfNomBateau1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfNomBateau1.addActionListener(new java.awt.event.ActionListener() {
+        tfDestination.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfDestination.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfNomBateau1ActionPerformed(evt);
+                tfDestinationActionPerformed(evt);
             }
         });
 
-        tfDescBateau1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfDescBateau1.addActionListener(new java.awt.event.ActionListener() {
+        tfDateArrivee.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfDateArrivee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfDescBateau1ActionPerformed(evt);
+                tfDateArriveeActionPerformed(evt);
             }
         });
 
-        tfDescBateau2.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfDescBateau2.addActionListener(new java.awt.event.ActionListener() {
+        tfHeureDepart.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfHeureDepart.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfDescBateau2ActionPerformed(evt);
+                tfHeureDepartActionPerformed(evt);
             }
         });
 
-        tfDescBateau3.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
-        tfDescBateau3.addActionListener(new java.awt.event.ActionListener() {
+        tfHeureArrivee.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        tfHeureArrivee.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tfDescBateau3ActionPerformed(evt);
+                tfHeureArriveeActionPerformed(evt);
             }
         });
 
@@ -168,12 +168,12 @@ public class FicheVoyageView extends javax.swing.JFrame {
         jLabel13.setBackground(new java.awt.Color(0, 204, 255));
         jLabel13.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel13.setText("Date de départ");
+        jLabel13.setText("Heure de départ");
 
         jLabel14.setBackground(new java.awt.Color(0, 204, 255));
         jLabel14.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel14.setText("Date de départ");
+        jLabel14.setText("Heure d'arrivée");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -192,40 +192,40 @@ public class FicheVoyageView extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(26, 26, 26)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                        .addComponent(tfDescBateau, javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(tfDescBateau2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE))
-                                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(341, 362, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
                                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(tfNomBateau, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(tfLieuDepart, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addGroup(layout.createSequentialGroup()
-                                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addComponent(tfNomBateau1, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(tfDescBateau1, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
-                                        .addComponent(tfDescBateau3, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
-                                        .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(tfDestination, javax.swing.GroupLayout.PREFERRED_SIZE, 221, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(tfDateArrivee, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
+                                    .addComponent(tfHeureArrivee, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE)
+                                    .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(50, 50, 50))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(spCapacite, javax.swing.GroupLayout.PREFERRED_SIZE, 571, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 21, Short.MAX_VALUE))))
+                                .addComponent(spBateau, javax.swing.GroupLayout.PREFERRED_SIZE, 571, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 21, Short.MAX_VALUE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(tfDateDepart, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(tfHeureDepart, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 230, Short.MAX_VALUE))
+                                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(78, 78, 78))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btEnregistrer)))
+                        .addComponent(btEnregVoyage)))
                 .addContainerGap())
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -244,32 +244,32 @@ public class FicheVoyageView extends javax.swing.JFrame {
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(tfNomBateau, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tfNomBateau1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tfLieuDepart, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tfDestination, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(48, 48, 48)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tfDescBateau, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tfDescBateau1, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tfDateDepart, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tfDateArrivee, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(tfDescBateau2, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(tfDescBateau3, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(tfHeureDepart, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(tfHeureArrivee, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(53, 53, 53)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(spCapacite, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(spBateau, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(48, 48, 48)
-                .addComponent(btEnregistrer)
+                .addComponent(btEnregVoyage)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 13, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(7, 7, 7)
@@ -285,33 +285,33 @@ public class FicheVoyageView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void tfNomBateauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfNomBateauActionPerformed
+    private void tfLieuDepartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfLieuDepartActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfNomBateauActionPerformed
+    }//GEN-LAST:event_tfLieuDepartActionPerformed
 
-    private void tfDescBateauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDescBateauActionPerformed
+    private void tfDateDepartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDateDepartActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfDescBateauActionPerformed
+    }//GEN-LAST:event_tfDateDepartActionPerformed
 
-    private void btEnregistrerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEnregistrerActionPerformed
+    private void btEnregVoyageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btEnregVoyageActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btEnregistrerActionPerformed
+    }//GEN-LAST:event_btEnregVoyageActionPerformed
 
-    private void tfNomBateau1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfNomBateau1ActionPerformed
+    private void tfDestinationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDestinationActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfNomBateau1ActionPerformed
+    }//GEN-LAST:event_tfDestinationActionPerformed
 
-    private void tfDescBateau1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDescBateau1ActionPerformed
+    private void tfDateArriveeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDateArriveeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfDescBateau1ActionPerformed
+    }//GEN-LAST:event_tfDateArriveeActionPerformed
 
-    private void tfDescBateau2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDescBateau2ActionPerformed
+    private void tfHeureDepartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfHeureDepartActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfDescBateau2ActionPerformed
+    }//GEN-LAST:event_tfHeureDepartActionPerformed
 
-    private void tfDescBateau3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfDescBateau3ActionPerformed
+    private void tfHeureArriveeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfHeureArriveeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_tfDescBateau3ActionPerformed
+    }//GEN-LAST:event_tfHeureArriveeActionPerformed
 
     public JSpinner getSpCapacite() {
         return spCapacite;
@@ -330,7 +330,7 @@ public class FicheVoyageView extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btEnregistrer;
+    private javax.swing.JButton btEnregVoyage;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -344,12 +344,12 @@ public class FicheVoyageView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JSeparator jSeparator1;
-    private javax.swing.JSpinner spCapacite;
-    private javax.swing.JTextField tfDescBateau;
-    private javax.swing.JTextField tfDescBateau1;
-    private javax.swing.JTextField tfDescBateau2;
-    private javax.swing.JTextField tfDescBateau3;
-    private javax.swing.JTextField tfNomBateau;
-    private javax.swing.JTextField tfNomBateau1;
+    private javax.swing.JSpinner spBateau;
+    private javax.swing.JTextField tfDateArrivee;
+    private javax.swing.JTextField tfDateDepart;
+    private javax.swing.JTextField tfDestination;
+    private javax.swing.JTextField tfHeureArrivee;
+    private javax.swing.JTextField tfHeureDepart;
+    private javax.swing.JTextField tfLieuDepart;
     // End of variables declaration//GEN-END:variables
 }

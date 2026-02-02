@@ -37,17 +37,6 @@
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="tfDescBateau" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="tfDescBateau2" alignment="0" pref="230" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Component id="jLabel11" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="341" pref="362" max="32767" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
@@ -55,34 +44,44 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jLabel8" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="tfNomBateau" min="-2" pref="230" max="-2" attributes="0"/>
+                                  <Component id="tfLieuDepart" min="-2" pref="230" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel14" min="-2" pref="185" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <Component id="jLabel3" min="-2" pref="156" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jLabel10" min="-2" pref="23" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Component id="tfNomBateau1" min="-2" pref="221" max="-2" attributes="0"/>
-                                      <Component id="tfDescBateau1" pref="230" max="32767" attributes="0"/>
-                                      <Component id="tfDescBateau3" alignment="0" pref="230" max="32767" attributes="0"/>
-                                      <Component id="jLabel12" alignment="0" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel3" min="-2" pref="156" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel10" min="-2" pref="23" max="-2" attributes="0"/>
                                   </Group>
+                                  <Component id="tfDestination" min="-2" pref="221" max="-2" attributes="0"/>
+                                  <Component id="tfDateArrivee" pref="230" max="32767" attributes="0"/>
+                                  <Component id="tfHeureArrivee" alignment="0" pref="230" max="32767" attributes="0"/>
+                                  <Component id="jLabel12" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="spCapacite" min="-2" pref="571" max="-2" attributes="0"/>
+                              <Component id="spBateau" min="-2" pref="571" max="-2" attributes="0"/>
                               <EmptySpace min="0" pref="21" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="tfDateDepart" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="tfHeureDepart" alignment="0" pref="230" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel11" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                  <Component id="jLabel13" alignment="0" min="-2" pref="203" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel14" min="-2" pref="202" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="btEnregistrer" min="-2" max="-2" attributes="0"/>
+                      <Component id="btEnregVoyage" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -108,8 +107,8 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="tfNomBateau" min="-2" pref="53" max="-2" attributes="0"/>
-                  <Component id="tfNomBateau1" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfLieuDepart" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfDestination" min="-2" pref="53" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -118,8 +117,8 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="tfDescBateau" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
-                  <Component id="tfDescBateau1" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfDateDepart" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfDateArrivee" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -128,8 +127,8 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="tfDescBateau2" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
-                  <Component id="tfDescBateau3" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfHeureDepart" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
+                  <Component id="tfHeureArrivee" alignment="3" min="-2" pref="53" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -137,9 +136,9 @@
                   <Component id="jLabel6" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="spCapacite" min="-2" max="-2" attributes="0"/>
+              <Component id="spBateau" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-              <Component id="btEnregistrer" min="-2" max="-2" attributes="0"/>
+              <Component id="btEnregVoyage" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="53" max="32767" attributes="0"/>
               <Component id="jSeparator1" min="-2" pref="13" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
@@ -186,14 +185,14 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfNomBateau">
+    <Component class="javax.swing.JTextField" name="tfLieuDepart">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfNomBateauActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfLieuDepartActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
@@ -208,14 +207,14 @@
         <Property name="text" type="java.lang.String" value="Destination"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfDescBateau">
+    <Component class="javax.swing.JTextField" name="tfDateDepart">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDescBateauActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDateDepartActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
@@ -230,7 +229,7 @@
         <Property name="text" type="java.lang.String" value="Bateau"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JSpinner" name="spCapacite">
+    <Component class="javax.swing.JSpinner" name="spBateau">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
@@ -240,7 +239,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="btEnregistrer">
+    <Component class="javax.swing.JButton" name="btEnregVoyage">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
@@ -248,7 +247,7 @@
         <Property name="text" type="java.lang.String" value="Enregistrer"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btEnregistrerActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btEnregVoyageActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JSeparator" name="jSeparator1">
@@ -318,44 +317,44 @@
         <Property name="text" type="java.lang.String" value="*"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfNomBateau1">
+    <Component class="javax.swing.JTextField" name="tfDestination">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfNomBateau1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDestinationActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfDescBateau1">
+    <Component class="javax.swing.JTextField" name="tfDateArrivee">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDescBateau1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDateArriveeActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfDescBateau2">
+    <Component class="javax.swing.JTextField" name="tfHeureDepart">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDescBateau2ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfHeureDepartActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JTextField" name="tfDescBateau3">
+    <Component class="javax.swing.JTextField" name="tfHeureArrivee">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Comic Sans MS" size="24" style="0"/>
         </Property>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfDescBateau3ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfHeureArriveeActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
@@ -391,7 +390,7 @@
           <Font name="Comic Sans MS" size="24" style="1"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="Date de d&#xe9;part"/>
+        <Property name="text" type="java.lang.String" value="Heure de d&#xe9;part"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel14">
@@ -403,7 +402,7 @@
           <Font name="Comic Sans MS" size="24" style="1"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="2"/>
-        <Property name="text" type="java.lang.String" value="Date de d&#xe9;part"/>
+        <Property name="text" type="java.lang.String" value="Heure d&apos;arriv&#xe9;e"/>
       </Properties>
     </Component>
   </SubComponents>

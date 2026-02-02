@@ -154,7 +154,15 @@ public class Accueil extends javax.swing.JFrame {
             new String [] {
                 "Voyages", "Bateau", "heure d'arrivée", "heure de départ", "Ville de départ", "Ville d'arrivée"
             }
-        ));
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+        });
         jScrollPane3.setViewportView(jtListVoyages);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

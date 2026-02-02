@@ -313,17 +313,43 @@ public class ModifierVoyageView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tfHeureArriveeActionPerformed
 
-    public JSpinner getSpCapacite() {
-        return spCapacite;
+    public JButton getBtEnregModif() {
+        return btEnregModif;
     }
 
-    public JTextField getTfDescBateau() {
-        return tfDescBateau;
+    public JSeparator getjSeparator1() {
+        return jSeparator1;
     }
 
-    public JTextField getTfNomBateau() {
-        return tfNomBateau;
+    public JSpinner getSpBateau() {
+        return spBateau;
     }
+
+    public JTextField getTfDateArrivee() {
+        return tfDateArrivee;
+    }
+
+    public JTextField getTfDateDepart() {
+        return tfDateDepart;
+    }
+
+    public JTextField getTfDestination() {
+        return tfDestination;
+    }
+
+    public JTextField getTfHeureArrivee() {
+        return tfHeureArrivee;
+    }
+
+    public JTextField getTfHeureDepart() {
+        return tfHeureDepart;
+    }
+
+    public JTextField getTfLieuDepart() {
+        return tfLieuDepart;
+    }
+
+
 
     
     

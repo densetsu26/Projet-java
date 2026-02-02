@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_voyage/view/FicheVoyageView.java</file>
+            <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_bateau/infra/view/ButtonEditor.java</file>
             <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_bateau/view/ModifierBateauView.java</file>
+            <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_voyage/view/Voyage.java</file>
+            <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_acceuil/view/Accueil.java</file>
+            <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_ticket/view/EditerTicketView.java</file>
             <file>file:/C:/Users/DELL/Desktop/dao%20crud/dao%20crud/MVCSwing/src/mvc_voyage/view/ModifierVoyageView.java</file>
         </group>
     </open-files>

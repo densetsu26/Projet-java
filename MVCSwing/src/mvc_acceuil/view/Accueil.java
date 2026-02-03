@@ -4,6 +4,12 @@
  */
 package mvc_acceuil.view;
 
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import javax.swing.JScrollPane;
+import javax.swing.JList<String>;
+import javax.swing.JTable;
+        
 /**
  *
  * @author DELL

@@ -4,6 +4,9 @@
  */
 package mvc_voyage.view;
 
+import mvc_bateau.infra.view.ButtonEditor;
+import mvc_bateau.infra.view.ButtonRenderer;
+
 /**
  *
  * @author DELL

@@ -12,7 +12,7 @@ import javax.swing.JTextField;
  *
  * @author macbook
  */
-public class FicheVoyageView extends javax.swing.JFrame {
+public class FicheVoyageView extends javax.swing.JFrame{
 
     /**
      * Creates new form FicheBateauView

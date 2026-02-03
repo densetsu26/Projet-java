@@ -49,14 +49,14 @@ public class Voyage extends BaseModel{
     /**
      * @return the id
      */
-    public Long getId() {
+    public Long getId_Voyage() {
         return id_Voyage;
     }
 
     /**
      * @param id the id to set
      */
-    public void setId(int id) {
+    public void setId_Voyage(int id) {
         this.id_Voyage = id;
     }
 

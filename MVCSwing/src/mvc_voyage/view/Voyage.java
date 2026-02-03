@@ -4,8 +4,14 @@
  */
 package mvc_voyage.view;
 
-import mvc_bateau.infra.view.ButtonEditor;
-import mvc_bateau.infra.view.ButtonRenderer;
+import javax.accessibility.AccessibleContext;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JRootPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import mvc_action.infra.view.ButtonEditor;
+import mvc_action.infra.view.ButtonRenderer;
 
 /**
  *
@@ -100,7 +106,23 @@ public class Voyage extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btAjouterVoyageActionPerformed
 
-   
+    public JTable getJtListeVoyage() {
+        return JtListeVoyage;
+    }
+
+    public JButton getBtAjouterVoyage() {
+        return btAjouterVoyage;
+    }
+
+    public JLabel getjLabel1() {
+        return jLabel1;
+    }
+
+    public JScrollPane getjScrollPane1() {
+        return jScrollPane1;
+    }
+
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable JtListeVoyage;

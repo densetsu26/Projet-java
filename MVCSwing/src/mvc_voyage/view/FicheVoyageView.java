@@ -317,9 +317,7 @@ public class FicheVoyageView extends javax.swing.JFrame{
         return btEnregVoyage;
     }
 
-    public JSeparator getjSeparator1() {
-        return jSeparator1;
-    }
+  
 
     public JSpinner getSpBateau() {
         return spBateau;

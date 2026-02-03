@@ -5,9 +5,11 @@
 package mvc_acceuil.view;
 
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JScrollPane;
-import javax.swing.JList<String>;
+import javax.swing.JList;
+import javax.swing.JPanel;
 import javax.swing.JTable;
         
 /**
@@ -33,7 +35,7 @@ public class Accueil extends javax.swing.JFrame {
     private void initComponents() {
 
         jScrollPane1 = new javax.swing.JScrollPane();
-        jList1 = new javax.swing.JList<String>();
+        jList1 = new javax.swing.JList<>();
         jPanel1 = new javax.swing.JPanel();
         jpBande = new javax.swing.JPanel();
         btAccueil = new javax.swing.JButton();
@@ -252,8 +254,60 @@ public class Accueil extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btTicketsActionPerformed
 
-    
+    public JButton getBtAccueil() {
+        return btAccueil;
     }
+
+    public JButton getBtBateaux() {
+        return btBateaux;
+    }
+
+    public JButton getBtTickets() {
+        return btTickets;
+    }
+
+    public JButton getBtVoyage() {
+        return btVoyage;
+    }
+
+    public JLabel getjLabel1() {
+        return jLabel1;
+    }
+
+    public JLabel getjLabel3() {
+        return jLabel3;
+    }
+
+    public JList<String> getjList1() {
+        return jList1;
+    }
+
+    public JPanel getjPanel1() {
+        return jPanel1;
+    }
+
+    public JPanel getjPanel3() {
+        return jPanel3;
+    }
+
+    public JScrollPane getjScrollPane1() {
+        return jScrollPane1;
+    }
+
+    public JScrollPane getjScrollPane3() {
+        return jScrollPane3;
+    }
+
+    public JPanel getJpBande() {
+        return jpBande;
+    }
+
+    public JTable getJtListVoyages() {
+        return jtListVoyages;
+    }
+
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btAccueil;

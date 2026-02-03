@@ -9,8 +9,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTable;
 import javax.swing.table.JTableHeader;
-import mvc_bateau.infra.view.ButtonEditor;
-import mvc_bateau.infra.view.ButtonRenderer;
+import mvc_action.infra.view.ButtonEditor;
+import mvc_action.infra.view.ButtonRenderer;
 
 /**
  *

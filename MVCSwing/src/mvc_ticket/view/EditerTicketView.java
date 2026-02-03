@@ -338,17 +338,35 @@ public class EditerTicketView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btEnregisTicketActionPerformed
 
-    public JSpinner getSpCapacite() {
-        return spCapacite;
+    public JSpinner getJsSiege() {
+        return JsSiege;
     }
 
-    public JTextField getTfDescBateau() {
-        return tfDescBateau;
+    public JButton getBtEnregisTicket() {
+        return btEnregisTicket;
     }
 
-    public JTextField getTfNomBateau() {
-        return tfNomBateau;
+    public JButton getBtImprimer() {
+        return btImprimer;
     }
+
+    public JSpinner getSpBateauVoyage() {
+        return spBateauVoyage;
+    }
+
+    public JTextField getTfDateDepart() {
+        return tfDateDepart;
+    }
+
+    public JTextField getTfDestination() {
+        return tfDestination;
+    }
+
+    public JTextField getTfHeureDepart() {
+        return tfHeureDepart;
+    }
+
+
 
     
     

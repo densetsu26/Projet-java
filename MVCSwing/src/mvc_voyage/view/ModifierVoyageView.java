@@ -317,9 +317,8 @@ public class ModifierVoyageView extends javax.swing.JFrame {
         return btEnregModif;
     }
 
-    public JSeparator getjSeparator1() {
-        return jSeparator1;
-    }
+
+    
 
     public JSpinner getSpBateau() {
         return spBateau;
